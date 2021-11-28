@@ -12068,7 +12068,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-allinone-home"]],
       decls: 65,
       vars: 4,
-      consts: [[1, "section", "allinone-home"], [1, "text-center", "h4"], [1, "container", "mt-5"], [1, "row"], [1, "col-md-4", "col-12"], [1, "float-start", "w-100", "content-wrapper"], [1, "img-wrapper"], ["src", "./assets/images/projects/online-portfolio.png", 1, "w-100"], [1, "text-wrapper", "p-3"], [1, "h5", "text-dark", "fw-bold", "mb-3", "text-center"], [1, "links-wrapper", "mt-2"], [1, "links-item", "mb-2"], ["target", "_blank", "href", "https://xd.adobe.com/view/99bb237c-4925-4df1-b127-c10235eb08d8-cce8/"], [1, "ri-arrow-right-line"], ["target", "_blank", "href", "https://pankajpede.github.io/aboutme/"], [1, "links-item"], ["target", "_blank", "href", "https://www.behance.net/gallery/132134285/Online-Portfolio-Case-Study-Prototype?"], ["src", "./assets/images/projects/chabot-ai.png", 1, "w-100"], ["target", "_blank", "href", "https://www.figma.com/proto/RFCtusleNzjiFv7BtAalyI/Bot-Station-AI-New?node-id=0%253A2&scaling=min-zoom"], ["target", "_blank", 3, "routerLink"], ["src", "./assets/images/projects/canvas.png", 1, "w-100"], ["href", "#", 1, "disabled"], [3, "routerLink"]],
+      consts: [[1, "section", "allinone-home"], [1, "text-center", "h4"], [1, "container", "mt-5"], [1, "row"], [1, "col-md-4", "col-12"], [1, "float-start", "w-100", "content-wrapper"], [1, "img-wrapper"], ["src", "./assets/images/projects/online-portfolio.png", 1, "w-100"], [1, "text-wrapper", "p-3"], [1, "h5", "text-dark", "fw-bold", "mb-3", "text-center"], [1, "links-wrapper", "mt-2"], [1, "links-item", "mb-2"], ["target", "_blank", "href", "https://xd.adobe.com/view/99bb237c-4925-4df1-b127-c10235eb08d8-cce8/"], [1, "ri-arrow-right-line"], ["target", "_blank", "href", "https://pankajpede.github.io/aboutme/"], [1, "links-item"], ["target", "_blank", "href", "https://www.behance.net/gallery/132134285/Online-Portfolio-Case-Study-Prototype?"], ["src", "./assets/images/projects/chabot-ai.png", 1, "w-100"], ["target", "_blank", "href", "https://www.figma.com/proto/RFCtusleNzjiFv7BtAalyI/Bot-Station-AI-New?node-id=0%253A2&scaling=min-zoom"], [3, "routerLink"], ["src", "./assets/images/projects/canvas.png", 1, "w-100"], ["href", "#", 1, "disabled"]],
       template: function AllinoneHomeComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -12245,7 +12245,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "li", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a", 19);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "View Live Demo ");
 
