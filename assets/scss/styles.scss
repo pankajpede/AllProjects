@@ -2375,6 +2375,7 @@ video {
 // Modal
 // Modal1
 .modal1-wrapper{
+  overflow: visible;
   .modal-dialog{
     max-width: 699px;
     margin-top: 70px;
@@ -2382,6 +2383,10 @@ video {
       border: none;
       box-shadow: 0 0 20px $gray-600;
       border-radius: 15px;
+      .modal-body{
+        max-height: 350px;
+        overflow-y: scroll;
+      }
       .header-title{
         position: relative;
         .logo{
@@ -2484,6 +2489,9 @@ video {
   .modal-dialog{
     max-width: 499px;
     .modal-content {
+      .modal-body{
+        overflow-y: auto;
+      }
       .header-title {
         .close{
           top: 0;
