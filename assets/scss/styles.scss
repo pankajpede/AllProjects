@@ -4,6 +4,7 @@
 @import "fonts.scss";
 @import "fonts-Nunito.scss";
 @import "../../app/pages/views/bot-station-ai/bot-station-ai-variables";
+@import "../../app/pages/views/portfolio-aboutme/portfolio-aboutme";
 // Typography
 .nunito-font-wrapper{
   font-family: "Nunito";
@@ -971,7 +972,37 @@ video {
     }
   }
 }
-
+.info-wrapper3{
+  .profile-img{
+    img{
+      border-radius: 100%;
+      border:4px solid $pa-yellow
+    }
+    .h4{
+      color: $pa-darkgray;
+    }
+  }
+  .text-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    .heading{
+      span{
+        color: $gray-700 !important;
+        font-weight: 600;
+      }
+      .cursor-span{
+        display: none;
+      }
+      font-size: 22px;
+    }
+    .sub-heading{
+      font-size: 18px;
+      span{
+        color: $gray-600 !important;
+      }
+    }
+  }
+}
 // Brand Section
 .section-clients {
   padding: 35px 0;
@@ -1653,6 +1684,7 @@ video {
 }
 
 // Footer
+// Footer-1
 .footer-1{
   .widget_links{
     h4{
@@ -1816,6 +1848,7 @@ video {
     }
   }
 }
+// Footer-1
 .footer-2{
   position: relative;
   z-index: 1;
@@ -1847,7 +1880,45 @@ video {
     }
   }
 }
-
+// Footer-3
+.footer-3{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 65px;
+  width: 100%;
+  background-color: $pa-darkgray;
+  z-index: 2;
+  padding-left: 65px;
+  ul{
+    li{
+      a{
+        padding: 25px;
+        color: $gray-100;
+        text-decoration: none;
+        opacity: 0.6;
+        .line{
+          position: relative;
+          top: 8px;
+          left: 0;
+          width: 20px;
+          height: 2px;
+          background-color: $gray-100;
+          margin-right: 10px;
+          opacity: 0.6;
+        }
+        &.active{
+          color: $pa-yellow;
+          opacity: 1;
+          .line{
+            background-color: $pa-yellow;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
 // Go to top
 // go-top1
 .go-top1 {
@@ -2561,6 +2632,64 @@ video {
   }
 }
 
+// sidebar
+// sidebar1
+.sidebar-wrapper-1{
+  background-color: $pa-darkgray;
+  width: 65px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  .profile-img{
+    padding: 10px 10px 0 10px;
+    img{
+      width: 45px;
+      border: 2px solid $pa-yellow;
+      border-radius: 100%;
+    }
+  }
+  .social-icons{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    &::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      left: 30px;
+      width: 1px;
+      height: 50px;
+      z-index: 4;
+      background-color: $gray-100;
+      opacity: 0.6;
+    }
+    li{
+      padding: 20px 18px 0 18px;
+      a{
+        padding: 5px;
+        border: 1px solid $gray-100;
+        text-decoration: none;
+        opacity: 0.6;
+        i{
+          color: $gray-100;
+        }
+      }
+    }
+  }
+  .download-icon{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 13px;
+    background-color: $pa-yellow;
+    i{
+      font-size: 36px;
+    }
+  }
+}
 //Chat station bot website
 .chatbot-wrapper{
   .chatbot-text-primary{
